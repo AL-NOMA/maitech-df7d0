@@ -11,7 +11,7 @@ export default class SectionHero extends React.Component {
             <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer">
               <div className="inner">
                 <div className="grid">
-                  
+        
                   <div className="cell block-content">
                     {_.get(section, 'title', null) && (
                     <h2 className="block-title underline">{_.get(section, 'title', null)}</h2>
