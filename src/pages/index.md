@@ -100,7 +100,7 @@ sections:
         style: primary
   - section_id: recent-posts
     type: section_posts
-    background: white
+    background: gray
     title: Latest Posts
 seo:
   title: Stackbit Azimuth Theme
