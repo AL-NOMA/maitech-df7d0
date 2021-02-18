@@ -12,9 +12,6 @@ export default class SectionHero extends React.Component {
               <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
-                  <div className="cell block-preview">
-                    
-                  </div>
                   )}
                   <div className="cell block-content">
                     {_.get(section, 'title', null) && (
