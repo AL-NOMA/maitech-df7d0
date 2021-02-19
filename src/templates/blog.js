@@ -25,7 +25,7 @@ export default class Blog extends React.Component {
               <div className="inner">
                 <div className="grid post-feed">
                   {_.map(display_posts, (post, post_idx) => (
-                  <article key={post_idx} className="cell post">
+                  <article key={post_idx} className="cell post">h
                     <div className="card">
                       {_.get(post, 'frontmatter.thumb_image', null) && (
                       <Link className="post-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
