@@ -9,8 +9,6 @@ export default class SectionHero extends React.Component {
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer">
-              <div className="inner">
-              </div>
             </section>
         );
     }
